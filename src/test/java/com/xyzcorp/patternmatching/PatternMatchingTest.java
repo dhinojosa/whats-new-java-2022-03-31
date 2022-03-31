@@ -16,17 +16,17 @@ public class PatternMatchingTest {
         }
     }
 
-    public String testItem2(Object o) {
-        return switch(o) {
-            case String s -> "String";
-            case Integer i -> "Number";
-            default -> "Nope";
-        };
-    }
-
-    @Test
-    void testPatternMatching() {
-        System.out.println(testItem2("Hello"));
-        System.out.println(testItem2(301));
-    }
+//    public String testItem2(Object o) {
+//        return switch(o) {
+//            case String s -> "String";
+//            case Integer i -> "Number";
+//            default -> "Nope";
+//        };
+//    }
+//
+//    @Test
+//    void testPatternMatching() {
+//        System.out.println(testItem2("Hello"));
+//        System.out.println(testItem2(301));
+//    }
 }
